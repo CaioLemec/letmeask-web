@@ -6,7 +6,6 @@ import { Button } from '../components/Button';
 import { FormEvent } from 'react';
 import { useState } from 'react';
 import { database } from '../services/firebase';
-import userEvent from '@testing-library/user-event';
 import { useAuth } from '../hooks/useAuth';
 
 export function NewRoom() {
