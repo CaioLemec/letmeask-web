@@ -1,3 +1,6 @@
+$mobile: 412px;
+$tablet: 770px;
+
 #page-auth {
     display: flex;
     align-items: stretch;
@@ -10,6 +13,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         padding: 120px 80px;
 
         img {
@@ -135,4 +139,29 @@
         }
 
     }
+
+    @media screen and (max-width: $mobile) {
+        aside {
+            display: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 0 8px;
+            min-width: 300px;
+        }
+      }
+
+      @media screen and (max-width: $tablet) {
+        aside {
+            display: none;
+        }
+
+        main {
+            flex: 1;
+            padding: 0 8px;
+            min-width: 300px;
+        }
+      }
+
 }

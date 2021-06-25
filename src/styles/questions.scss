@@ -1,3 +1,6 @@
+$mobile: 412px;
+$tablet: 770px;
+
 .question {
     background: #fefefe;
     border-radius: 8px;
@@ -76,6 +79,18 @@
 
             &:hover {
                 filter: brightness(0.7);
+            }
+        }
+    }
+
+    @media screen and (max-width: $tablet) {
+        footer {
+
+            .user-info {
+    
+                img {
+                    display: none;
+                }
             }
         }
     }
