@@ -10,8 +10,6 @@
   <a href="#bookmark_tabs-license"><img src="https://img.shields.io/static/v1?label=&message=License&color=f48120&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
 </p>
 
-a   a 
-
 <p align="center">
  <img alt="tela demonstrando aplicação" src="./public/images/mockup1.png" width="65%">
 </p>
@@ -104,4 +102,3 @@ I am available for any clarification.
 <a href="https://www.linkedin.com/in/caiolemec/"><img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=f48120&style=for-the-badge&logo=linkedin"/>
 <br>
 </p>
-
