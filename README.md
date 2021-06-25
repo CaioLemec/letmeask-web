@@ -46,7 +46,12 @@ In this application it was possible to deepen knowledge in front-end development
 <p align="center">
 <img src="./src/assets/extra/test.gif" width="100%"/>
 </p>
+<h3 align="center">You can also check completed layout at <a href="https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate?node-id=0%3A1">FIGMA</a>.</h3>
+<h3 align="center">You can also check <a href="https://letmeask-lemec.web.app/">Deploy</a>.</h3>
+<br>
 <hr>
+
+
 
 ## :technologist: Technologies
 
