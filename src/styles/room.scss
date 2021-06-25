@@ -1,3 +1,6 @@
+$mobile: 412px;
+$tablet: 770px;
+
 #page-room {
     header {
         padding: 24px;
@@ -33,7 +36,8 @@
             margin: 32px 0 24px;
             display: flex;
             align-items: center;
-
+            justify-content: space-between;
+            
             h1 {
                 font-family: 'Poppins', sans-serif;
                 font-size: 24px;
@@ -108,5 +112,179 @@
         .question-list {
             margin-top: 32px;
         }
+
+        .back-button {
+            display: none;
+        }
     }
+
+  @media screen and (max-width: $tablet) {
+    header {
+        padding: 24px;
+        border-bottom: 1px solid #e2e2e2;
+        display: flex;
+    }
+
+    .content {
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        > img {
+            max-height: 45px;
+        }
+
+        > div {
+            margin-top: 30px;
+            display: flex;
+
+            button {
+                height: 40px;
+            }
+        }
+    }
+    main {
+        max-width: 90%;
+
+        .room-title {
+            display: block;
+            text-align: center;
+
+            h1 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            span {
+                margin-left: 16px;
+                background: #e559f9;
+                border-radius: 9999px;
+                padding: 8px 16px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #ffffff;
+            }
+        }
+
+        form {
+            textarea {
+                width: 100%;
+                border: 0;
+                padding: 16px;
+                border-radius: 8px;
+                background: #fefefe;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+                resize: vertical;
+                min-height: 130px;
+            }
+        }
+
+        .question-list {
+            margin: 32px auto;
+        }
+
+        .back-button {
+            height: 50px;
+            border-radius: 8px;
+            background: #835afd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+            margin-bottom: 32px;
+            transition: 0.2s;
+
+            > button {
+                background-color: transparent;
+                border: none;
+                display: flex;
+                justify-content: center;
+                transition: transform .2s; 
+            }  
+        }
+    }
+  }
+
+  @media screen and (max-width: $mobile) {
+    header {
+        padding: 24px;
+        border-bottom: 1px solid #e2e2e2;
+        display: flex;
+    }
+
+    .content {
+        margin: 0 auto;
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        > img {
+            max-height: 45px;
+        }
+    }
+
+    main {
+        .room-title {
+            margin: 32px auto;
+            justify-content: center;
+            min-width: 300px;
+
+            h1 {
+                font-family: 'Poppins', sans-serif;
+                font-size: 16px;
+                color: #29292e;
+            }
+
+            span {
+                margin-left: 12px;
+                font-size: 12px;
+            }
+        }
+
+        form {
+            textarea {
+                width: 100%;
+                min-height: 150px;
+            }
+
+            .form-footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 16px auto;
+
+                .user-info {
+                    display: none;
+                }
+            }
+        }
+
+        .question-list {
+            margin: 32px auto;
+        }
+
+        .back-button {
+            height: 50px;
+            border-radius: 8px;
+            background: #835afd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+            transition: 0.2s;;
+
+            > button {
+                background-color: transparent;
+                border: none;
+                display: flex;
+                justify-content: center;
+                transition: transform .2s; /* Animation */
+            }  
+        }
+    }
+
+  }
 }

@@ -1,7 +1,8 @@
 import logoImg from '../assets/images/logo.svg';
+import backImg from '../assets/images/back.svg';
 import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
-import { useParams } from 'react-router-dom';
+import { useHistory, useParams } from 'react-router-dom';
 import '../styles/room.scss';
 import { FormEvent, useState } from 'react';
 import { useAuth } from '../hooks/useAuth';
@@ -14,11 +15,16 @@ type RoomParams = {
 }
 
 export function Room() {
+    const history = useHistory();
     const { user } = useAuth();
     const params = useParams<RoomParams>();
     const [newQuestion, setNewQuestion] = useState('');
     const roomId = params.id;
     const { title, questions } = useRoom(roomId);
+
+    async function handleBackToHomeMobileButton() {
+        history.push('/');
+    }
 
     async function handleSendQuestion(event: FormEvent) {
         event.preventDefault();
@@ -112,6 +118,11 @@ export function Room() {
                              </Question>
                             )
                         })}
+                    </div>
+                    <div className="back-button">
+                        <button  onClick={()=> handleBackToHomeMobileButton()}>
+                            <img src={backImg} alt="back button"  />
+                        </button>     
                     </div>
             </main>
         </div>
