@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
- <img alt="webapp mockup" src="./src/assets/extra/mockup.png" width="65%">
+ <img alt="webapp mockup" src="./src/assets/extra/mockup.png" width="55%">
 </p>
 
 <br>
@@ -44,7 +44,7 @@ In this application it was possible to deepen knowledge in front-end development
 
 ## :nail_care: Layout
 <p align="center">
-<img src="./src/assets/extra/test.gif" width="75%"/>
+<img src="./src/assets/extra/test.gif" width="100%"/>
 </p>
 <hr>
 
