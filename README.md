@@ -107,4 +107,3 @@ I am available for any clarification.
 <a href="https://www.linkedin.com/in/caiolemec/"><img src="https://img.shields.io/static/v1?label=&message=LinkedIn&color=835afd&style=for-the-badge&logo=linkedin"/>
 <br>
 </p>
-
