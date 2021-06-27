@@ -99,7 +99,7 @@ http://localhost:3000/
 
 ## :bookmark_tabs: License
 
-Licensed under MIT [LICENSE](./LICENSE.md).
+Licensed under MIT [LICENSE](./LICENSE).
 
 <hr>
 
