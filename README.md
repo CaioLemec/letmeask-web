@@ -9,7 +9,6 @@
   <a href="#octocat-environment"><img src="https://img.shields.io/static/v1?label=&message=Environment&color=835afd&style=for-the-badge&logo=visual-studio-code"/></a>&nbsp;
   <a href="#bookmark_tabs-license"><img src="https://img.shields.io/static/v1?label=&message=License&color=835afd&style=for-the-badge&logo=LibreOffice"/></a>&nbsp;
 </p>
-
 <p align="center">
  <img alt="webapp mockup" src="./src/assets/extra/mockup.png" width="55%">
 </p>
